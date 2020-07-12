@@ -4,44 +4,27 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavigationBar } from './Navbar';
+import './Navbar.css';
+import logo from "./logo.svg";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <>
-  <Navbar bg="light">
-    <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-  </Navbar>
-  <br />
-  <Navbar bg="light">
-    <Navbar.Brand>Brand text</Navbar.Brand>
-  </Navbar>
-  <br />
-  <Navbar bg="dark">
-    <Navbar.Brand href="#home">
-      <img
-        src="/logo.svg"
-        width="30"
-        height="30"
-        className="d-inline-block align-top"
-        alt="React Bootstrap logo"
-      />
-    </Navbar.Brand>
-  </Navbar>
-  <br />
-  <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">
-      <img
-        alt=""
-        src="/logo.svg"
-        width="30"
-        height="30"
-        className="d-inline-block align-top"
-      />{' '}
-      React Bootstrap
-    </Navbar.Brand>
-  </Navbar>
-</>
+    <div className='bar'>
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand className='brand' href="#home">
+          <img
+            alt=""
+            src={logo}
+            width="50"
+            height="50"
+            className="d-inline-block align-top"
+          />{' '}
+          <p className='btn'>Website Babyy</p>
+        </Navbar.Brand>
+      </Navbar>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #222;
+}
+
+a, .navbar-nav, .navbar-light .nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d61414;
+}
+
+.navbar-brand {
+  font-size: 1.4em;
+}
+
+.form-center {
+  position: absolute !important;
+  left: 25%;
+  right: 25%;
+}
+
+.bar {
+  justify-content: space-between;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.75em 1em;
+}
+
+.btn {
+  display: flex;
+  margin: 0 auto;
+  transition: 0.2s ease-in;
+}
+
+.logo {
+  float: left;
+}
+
+/*# sourceMappingURL=Navbar.css.map */
