@@ -7,11 +7,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import { NavigationBar } from './Navbar';
 import './Navbar.css';
 import logo from "./logo.svg";
+import { Form, FormControl } from 'react-bootstrap';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='bar'>
+    <div>
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand className='brand' href="#home">
           <img
@@ -23,6 +24,9 @@ ReactDOM.render(
           />{' '}
           <p className='btn'>Website Babyy</p>
         </Navbar.Brand>
+        <Form className="form-center">
+          <FormControl type="text" placeholder="Search" className="" />
+        </Form>
       </Navbar>
     </div>
   </React.StrictMode>,
