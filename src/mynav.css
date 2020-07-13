@@ -1,0 +1,69 @@
+.my-nav {
+  display: inline-flex;
+  background-color: #222;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.web-title {
+  display: flex;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  margin: 0 auto;
+}
+.web-title:small {
+  font-size: 20px;
+}
+
+.search-set {
+  display: inline-flex;
+  height: 60%;
+}
+
+.btn {
+  display: flex;
+  background-color: white;
+  padding: 0.2em;
+  margin: 0 auto;
+  transition: 0.2s ease-in;
+}
+.btn:hover {
+  background-color: #bebebe;
+  cursor: pointer;
+}
+
+.img-drop {
+  background-color: transparent;
+  margin: 0 auto;
+  border-color: transparent;
+  border: none;
+}
+.img-drop:hover {
+  background: #333;
+  cursor: pointer;
+}
+.img-drop:focus {
+  outline: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.menu-option {
+  font-weight: 500;
+  color: white;
+  padding: 0.2em;
+  background-color: #222;
+}
+.menu-option:hover {
+  color: #bebebe;
+}
+
+/*# sourceMappingURL=mynav.css.map */

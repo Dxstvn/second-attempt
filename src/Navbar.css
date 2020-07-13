@@ -1,3 +1,7 @@
+.dropdown {
+  border-color: black;
+}
+
 .navbar {
   background-color: #222;
 }
@@ -5,6 +9,7 @@
 a, .navbar-nav, .navbar-light .nav-link {
   color: white;
   text-decoration: none;
+  display: inline-block;
 }
 
 a:hover {
@@ -32,14 +37,18 @@ a:hover {
   padding: 0.75em 1em;
 }
 
-.btn {
-  display: flex;
-  margin: 0 auto;
-  transition: 0.2s ease-in;
+.search-bar {
+  z-index: 10;
 }
 
 .logo {
   float: left;
+}
+
+.btn {
+  display: flex;
+  margin: 0 auto;
+  transition: 0.2s ease-in;
 }
 
 /*# sourceMappingURL=Navbar.css.map */
