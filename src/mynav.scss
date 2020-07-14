@@ -78,3 +78,22 @@
           color: rgb(190, 190, 190);
       }
   }
+
+  .text-row {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .page-text {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      color: #111;
+      font-weight: 400;
+      border: 2px solid rgb(220, 220, 220);
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(240, 240, 240);
+      border-radius: 0.25em;
+  }

@@ -50,6 +50,17 @@ export function MyNav () {
                 <Button className='btn' variant="outline-success" >Search</Button>
             </Form>
         </div>
+        <div className='text-row'>
+            <p className='page-text'>
+                Hello this is some website text that I have written to test for proper text wrapping on the page
+            </p>
+            <p className='page-text'>
+                Hello this is some website text that I have written to test for proper text wrapping on the page
+            </p>
+            <p className='page-text'>
+                Hello this is some website text that I have written to test for proper text wrapping on the page
+            </p>
+        </div>
         </>
     );
 }
