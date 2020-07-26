@@ -11,6 +11,7 @@ import logo from "./logo.svg";
 import Button from 'react-bootstrap/Button';
 import { Nav, Navbar, Form, FormControl, NavDropdown } from 'react-bootstrap';
 import { MyNav } from './mynav';
+import { motion } from "framer-motion"
 
 
 ReactDOM.render(
@@ -55,6 +56,15 @@ ReactDOM.render(
       </Navbar.Collapse>
     </Navbar> */}
     <MyNav />
+    <motion.div
+      classsName='motion-thing'
+      animate={{
+        x: 0,
+        y: 0,
+        scale: 1,
+        rotate: 0,
+      }}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );

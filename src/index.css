@@ -9,4 +9,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.motion-thing {
+  display: flex;
+  background: green;
+}
+
 /*# sourceMappingURL=index.css.map */
